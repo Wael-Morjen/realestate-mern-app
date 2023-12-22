@@ -5,7 +5,7 @@ import SignIn from './pages/SignIn.jsx'
 import SignUp from './pages/SignUp.jsx'
 import About from './pages/About.jsx'
 import Profile from './pages/Profile.jsx'
-import Header from './components/Header.jsx';
+import Header from './components/Header.jsx'
 
 export default function App() {
   return (
