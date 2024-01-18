@@ -210,8 +210,8 @@ const Profile = () => {
                     Sign out
                 </span>
             </div> 
-            <p className='text-red-700 mt-5'>{error ? error : ''}</p>
-            <p className='text-green-700 mt-5'>{updateSuccess ? 'Profile updated successfully' : ''}</p>
+            <p className='text-red-700 mt-5 text-center'>{error ? error : ''}</p>
+            <p className='text-green-700 mt-5 text-center'>{updateSuccess ? 'Profile updated successfully' : ''}</p>
         </div>
     );
 };
